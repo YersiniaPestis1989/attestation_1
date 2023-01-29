@@ -1,0 +1,233 @@
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Roboto"),
+        url("../fonts/Roboto/Roboto-Regular.ttf") format("ttf");
+  }
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../image/background.svg) no-repeat;
+    background-size: auto 100%; 
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+    margin: 0 auto;
+    /* display: flex;
+    justify-content: space-between; */
+    position: relative;
+    /* z-index: 2;  */
+    /* background-color: aqua; */
+}
+
+/* .background {
+    width: 1920px;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    /* top: 36%; 
+} */
+
+.container-content {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 638px auto;
+
+}
+
+.photo-group {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* z-index: 2; */
+
+}
+
+.photo-group__photo {
+    height: 92%;
+}
+
+.photo-group__photo--992 {
+    display: none;
+    height: 92%;
+}
+
+.photo-group__photo--540 {
+    display: none;
+    }
+
+.photo-group__title {
+    height: 103px;
+    width: 100%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 105px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: black;
+}
+
+.content {
+    padding: 70px 380px 200px 70px;
+    width: auto;
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    color: #121212;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #121212;
+    padding-bottom: 50px;
+}
+
+.content__social {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.social__item:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #121212;
+    padding-bottom: 20px;
+}
+
+.content__tech {
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* grid-template-columns: repeat(5, auto);
+    grid-template-rows: auto; */
+    gap: 25px;
+    padding-bottom: 64px;
+    /* width: 1026px */
+
+}
+
+.tech__item {
+    /* width: auto;  */
+    padding: 14px 55px;
+    height: auto; 
+    background: #414141;
+    border-radius: 45px;
+    width: auto; 
+    
+    /* font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    padding: 8% 25%; */
+}
+
+.tech__item:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.item__text {
+    width: auto; 
+    /* /* display: inline-block;  */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    /* padding: 8% 25%;  */
+    left: 10%;
+
+} 
+
+.content__about {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-indent: 30px;
+    color: #121212;
+    padding-bottom: 15px;
+    width: 1026px;
+}
+
+.content__inputs {
+    display: flex;
+    gap: 25px;
+    padding-bottom: 25px;
+    padding-top: 35px;
+}
+
+.input__item {
+    width: 338px;
+    height: 66px;
+    border-radius: 11px;
+}
+
+.input__item::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #121212;
+    padding-left: 16px;
+    padding-top: 14px;
+    
+}
+
+.content__button {
+    width: 702px;
+    height: 66px;
+    background: #121212;
+    border-radius: 11px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+
+}
+
+.content__button:hover {
+    background: #414141;
+    cursor: pointer;
+}
+
