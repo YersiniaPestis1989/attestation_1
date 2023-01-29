@@ -1,10 +1,10 @@
 @media (max-width: 540px) {
     .container-content {
         grid-template-columns: auto;
-        width: 724px;
+        /* width: 724px; */
 }
 .content {
-    padding: 16px 48px 10px 100px;
+    padding: 16px 100px 10px 100px;
 }
 
 .photo-group {
